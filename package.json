@@ -1,19 +1,19 @@
 {
-  "name": "nodejs_exam",
+  "name": "t2204m_nodejs_exam",
   "version": "1.0.0",
-  "description": "",
+  "description": "exam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Anh180693/NodeJS_Exam.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Anh180693/NodeJS_Exam/issues"
-  },
-  "homepage": "https://github.com/Anh180693/NodeJS_Exam#readme"
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.2.3"
+  }
 }
